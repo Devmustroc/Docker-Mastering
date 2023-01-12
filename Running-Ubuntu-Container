@@ -1,0 +1,3 @@
+# how to running ubuntu Container
+1- History of container that were exited
+docker ps -a
