@@ -18,3 +18,6 @@ dokcer images.
 #busybox is not a fully fit linux distribution
 
 docker run busybox
+
+# Get Alpine Image container.
+docker pull alpine
