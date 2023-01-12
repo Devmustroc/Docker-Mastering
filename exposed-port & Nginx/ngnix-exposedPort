@@ -5,9 +5,12 @@ docker pull nginx
 
 # running Nginx container
 docker run ngninx
-// now we are connected to the STDIN & STDOUT of the nginx process of the container
+
+# now we are connected to the STDIN & STDOUT of the nginx process of the container
 
 # for connecting nginx to port 80 using port mapping
+
 docker run -p 8080:80 nginx 
-(-p stands for port)
+
+# (-p stands for port)
 

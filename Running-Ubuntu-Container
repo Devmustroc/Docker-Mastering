@@ -1,9 +1,13 @@
-##### how to running ubuntu Container ####
+#!/bin/bash
+
+# How to running ubuntu Container
 
 # get ubuntu container from Docker hub
 docker run ubuntu
-1- History of container that were exited
-docker ps -a 
+
+#History of container that were exited
+docker ps -a
+
 #alternative docker command "docker ps -a"
 docker container ls -a
 
@@ -14,11 +18,10 @@ docker run -it ubuntu
 
 dokcer images.
 
-# Creating Linux Container using a smallest image possible 
-(busybox)
+# Creating Linux Container using a smallest image possible (busybox)
 #busybox is not a fully fit linux distribution
 
 docker run busybox
 
-# Get Alpine Image container. (alpine is based on busybox with additional utilities)
+# Get Alpine Image container (alpine is based on busybox with additional utilities).
 docker pull alpine

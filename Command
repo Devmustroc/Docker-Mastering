@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Hello-world container
 docker run hello-world
 
