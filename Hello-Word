@@ -1,0 +1,8 @@
+# Hello-world container
+docker run hello-world
+
+# Check if there is running Containers :
+docker ps
+
+#check if there's images in Docker repository
+docker images
