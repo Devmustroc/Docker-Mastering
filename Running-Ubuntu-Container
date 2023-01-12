@@ -15,5 +15,6 @@ docker run -it ubuntu
 dokcer images.
 
 # Creating Linux Container using a smallest image possible (busybox)
+#busybox is not a fully fit linux distribution
 
 docker run busybox
