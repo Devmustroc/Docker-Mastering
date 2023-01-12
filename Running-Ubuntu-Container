@@ -12,4 +12,8 @@ docker run -it ubuntu
 
 # size of ubuntu image download it by the container
 
-dokcer images
+dokcer images.
+
+# Creating Linux Container using a smallest image possible (busybox)
+
+docker run busybox
