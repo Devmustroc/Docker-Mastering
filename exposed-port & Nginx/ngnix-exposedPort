@@ -2,3 +2,6 @@
 
 # pulling Nginx Image
 docker pull nginx
+
+# running Nginx container
+docker run ngninx
