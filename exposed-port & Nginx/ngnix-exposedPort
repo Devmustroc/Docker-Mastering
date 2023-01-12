@@ -1,0 +1,4 @@
+# creating a simple Nginx server and test connection from the computer
+
+# pulling Nginx Image
+docker pull nginx
