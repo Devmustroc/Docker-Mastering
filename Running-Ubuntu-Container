@@ -1,3 +1,6 @@
 # how to running ubuntu Container
 1- History of container that were exited
-docker ps -a
+docker ps -a 
+#alternative docker command "docker ps -a"
+docker container ls -a
+
