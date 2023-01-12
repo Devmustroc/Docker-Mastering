@@ -2,7 +2,7 @@
 
 # mapping html web page from desktop to nginx container
 
-docker run -p 8081:80 -v /home/devmustroc/Desktop/containers/nginx:/usr/share/nginx/html nginx
+docker run -p 8081:80 -v /home/devmustroc/Desktop/Docker-Mastering/containers/nginx:/usr/share/nginx/html nginx
 
 # -v (volum) + the absolute path of the html based on machine desktop or folder then the name of the container
 # absolute path folder is : /home/devmustroc/Desktop/containers/nginx (using pwd)
