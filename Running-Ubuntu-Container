@@ -9,3 +9,7 @@ docker container ls -a
 
 #Run ubuntu container and get into it.
 docker run -it ubuntu
+
+# size of ubuntu image download it by the container
+
+dokcer images
