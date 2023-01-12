@@ -1,6 +1,11 @@
-# how to running ubuntu Container
+##### how to running ubuntu Container ####
+
+# get ubuntu container from Docker hub
+docker run ubuntu
 1- History of container that were exited
 docker ps -a 
 #alternative docker command "docker ps -a"
 docker container ls -a
 
+#Run ubuntu container and get into it.
+docker run -it ubuntu
