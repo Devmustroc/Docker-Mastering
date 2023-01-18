@@ -1,0 +1,10 @@
+# pull python image
+docker pull python
+
+# run docker python
+docker run -it python
+
+
+# run a file(hello.py) inside the container with volume mapping -v
+docker run -it -v $PWD:/app python python3 /app/hello.py
+
