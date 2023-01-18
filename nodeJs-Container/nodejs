@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Stop All running container and delete them
+docker container prune
+
+# install docker container
+# pull the nodejs container
+docker pull node
