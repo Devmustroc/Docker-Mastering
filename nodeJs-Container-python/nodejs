@@ -4,3 +4,9 @@ docker container prune
 # install docker container
 # pull the nodejs container
 docker pull node
+
+# run docker node interactive mode
+docker run -it node
+
+# run file JS in node Container
+docker run -v $PWD:/app -w /app node node hello.js   // node hello.js ==> Command

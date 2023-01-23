@@ -1,0 +1,4 @@
+# npm install
+docker run -v $PWD:/app -w /app node npm init   ==> Fist of all the node folde must be initialize
+
+

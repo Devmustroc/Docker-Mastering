@@ -1,0 +1,1 @@
+console.log("hello wa executed by node js container");
