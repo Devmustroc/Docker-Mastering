@@ -1,1 +1,11 @@
 docker pull monog   # pull mongodb image from docker hub
+
+docker run mongo   # run mongodb image
+
+docker ps  # check running containers
+
+docker ps -a  # check all containers
+
+docker stop <container_id>  # stop container
+
+docker exec -it <container_id> bash  # run bash in container
