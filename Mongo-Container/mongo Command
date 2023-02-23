@@ -1,0 +1,1 @@
+docker pull monog   # pull mongodb image from docker hub
