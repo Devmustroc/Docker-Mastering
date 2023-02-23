@@ -8,4 +8,6 @@ docker ps -a  # check all containers
 
 docker stop <container_id>  # stop container
 
-docker exec -it <container_id> bash  # run bash in container
+docker exec -it <container_id> bash  # run bash in container.   #  -it  is for interactive mode
+
+ docker exec -it <container_id> mongosh  # run mongodb shell in container to manipulate Database
