@@ -1,4 +1,6 @@
-docker pull monog   # pull mongodb image from docker hub
+#!/bin/bash
+
+ocker pull monog   # pull mongodb image from docker hub
 
 docker run mongo   # run mongodb image
 
@@ -15,3 +17,5 @@ docker exec -it <container_id> bash  # run bash in container.   #  -it  is for i
  docker stop <container_id>  # stop container
 
  docker start <container_id>  # start container
+
+ docker run -d -v $PWD/db:/data/db mongo    # run mongodb container in background and mapping host directory to container directory
