@@ -1,13 +1,46 @@
-# Docker-Mastering
-Mastering Docker by understanding and practicing it's main features including Dockerfiles &amp; Docker
+# Docker Mastering
 
-## In Detail
-Docker is a software framework for building, running, and managing containers on servers and the cloud. In this course, you'll start by installing Docker on your computer - macOS, Windows, or Linux. Afterward, you'll jump into tons of practice activities and use different Docker features. You'll pull different Docker images and run multiple containers using them.
+This is a repository for the "Docker Mastering" course on Udemy.
 
-In practice sections, you'll perform multiple practice Docker activities, such as running Docker containers in the foreground and background, then connecting to certain processes in Docker from the terminal. After that, you'll learn to expose internal container ports to the outside and add environment variables for containers. You'll also create custom names and hostnames for containers, create a custom bridge network and run multiple containers inside of it, communicate between containers, and persist container folders using volumes mapping.
+![Docker Mastering Logo](https://i1.wp.com/www.sysrun.io/wp-content/uploads/2015/11/docker_logo_banner-614x210.png?resize=614%2C210&ssl=1)
 
-Next, you'll also learn and practice how to use different Docker images (view and edit them). For that, you will not use the terminal; instead, you'll use the GUI application Visual Studio Code.
+## Overview
 
-By the end of this course, you'll gain fundamental practical knowledge of Docker and be able to easily use it for the development and testing of your applications.
+This course is designed to help you master Docker, a popular containerization technology. The course covers Docker basics, advanced Docker concepts, and best practices for working with Docker in production environments.
 
-Most importantly, you'll understand Docker's main features such as Docker Volumes, Docker networking, and environment variables.
+## Getting Started
+
+To get started with this project, you can clone this repository and navigate to the project directory:
+
+git clone this repository
+`cd Docker-Mastering`
+
+
+Then, you can explore the directories to find the project you want to work on. Each project is contained in its own directory and includes a README.md file with instructions.
+
+## Course Outline
+
+The course is organized into the following sections:
+
+1. Introduction to Docker
+2. Docker Installation
+3. Docker Basics
+4. Docker Networking
+5. Docker Volumes
+6. Docker Compose
+7. Docker Images
+8. Dockerfile
+9. Docker Swarm
+10. Docker in Production
+
+Each section includes several lectures and exercises to help you master Docker.
+
+## Contributing
+
+If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your fork.
+5. Submit a pull request to this repository.
